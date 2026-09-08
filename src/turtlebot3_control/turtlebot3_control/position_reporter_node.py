@@ -24,7 +24,7 @@ class PositionReporter(Node):
         self.latest_x = None
         self.latest_y = None
         self.latest_theta = None
-        self.report_timer = self.create_timer(1.0, self.report_position)
+        self.report_timer = self.create_timer(5.0, self.report_position)
 
         self.get_logger().info("Position reporter aktif! Menunggu data /odom...")
 

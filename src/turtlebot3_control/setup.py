@@ -26,6 +26,8 @@ setup(
         'console_scripts': [
             'move_turtlebot3 = turtlebot3_control.move_turtlebot3:main',
             'position_reporter = turtlebot3_control.position_reporter_node:main',
+            'joint_state_reporter = turtlebot3_control.joint_state_reporter:main',
+            'lidar_reporter = turtlebot3_control.lidar_reporter:main',
         ],
     },
 )
